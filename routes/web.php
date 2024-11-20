@@ -7,5 +7,6 @@ Route::get('/', function () {
 })->name('accueil');
 
 Route::get('/home', function () {
-    return view('dashboard');
+    return view('dashboard', ["titre" => "Subtrack - Home"]);
 })->middleware(['auth'])->name('home');
+
