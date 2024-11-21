@@ -8,7 +8,7 @@
 </head>
 <body>
     <x-navigation-menu></x-navigation-menu>
-    <main>
+    <main class="p-8">
         {{$slot}}
     </main>
 </body>
